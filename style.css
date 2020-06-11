@@ -1,0 +1,40 @@
+header{
+    background: #525866;
+    display: inline-block;
+    margin:auto;
+    width: 100%;
+}
+
+.texto-cabecario{
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    padding: 20px 0 20px;
+    left: 20%;
+
+}
+
+.fone{
+    font-size: 16px;
+    color: #ffffff;
+    position: relative ;
+    display: inline-block;
+    left: 30%;
+    padding: 10px 20px 12px 20px;
+}
+
+.imagem-fone{
+    display: block;
+    position: absolute;
+    left:0px;
+}
+
+.email{
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    left: 30%;
+    padding: 10px 20px 12px 20px;
+}
