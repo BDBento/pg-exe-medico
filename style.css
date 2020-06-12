@@ -1,4 +1,4 @@
-header{
+.inicio{
     background: #525866;
     display: inline-block;
     margin:auto;
@@ -20,7 +20,7 @@ header{
     color: #ffffff;
     position: relative ;
     display: inline-block;
-    left: 30%;
+    left: 28%;
     padding: 10px 20px 12px 20px;
 }
 
@@ -28,13 +28,52 @@ header{
     display: block;
     position: absolute;
     left:0px;
+    margin: auto;
 }
 
 .email{
     font-size: 16px;
     color: #ffffff;
-    position: relative;
-    display: inline-block;
-    left: 30%;
-    padding: 10px 20px 12px 20px;
+    position: absolute;
+    display:block;
+    top: 1.2em;
+    left: 60%;
+    padding: 0px 20px 0px 20px;
 }
+
+.imagem-face , .imagem-twitter , .imagem-google{
+    float: right;
+    display: block;
+    position: relative;
+    width: 1em;
+    bottom: 1em;
+    left: 5em;
+    border-left: 1px solid gainsboro;
+}
+
+.logo1{
+    display: inline-block;
+    position: relative;
+    left: 19%;
+    width: 16%;
+}
+
+.menu{
+    list-style: none;
+    position: relative;
+    bottom: 30px; 
+    left:35%;
+    background-color:#fff; 
+}
+
+.menu li{
+    font-size: 16px;
+    text-align:center;
+    position:relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+    padding:0  1em 0 2em;
+    
+    }
+
+
