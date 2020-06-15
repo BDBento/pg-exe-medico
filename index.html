@@ -40,7 +40,7 @@
 
             <nav class="menu">
                 <ul>
-                    <li>Home</li>
+                    <li id="botton-home"><a href="#">Home</a></li>
                     <li>About us</li>
                     <li>Pages</li>
                     <li>Departaments</li>
@@ -55,33 +55,41 @@
     </header>
 
     <main>
-        <img src="" alt="">
-            If you a doctor for to consectetuer Lorem opsum dolor, consectetur
-            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat.
 
-            <h1>Make an Appointment</h1>
+        <div class="primeiro-banner">
+            <div class="corpo cinza">
+                <div class="conteudo cinza">
+                <div class="slide1">
+                <img id="a1" src="imagens/banner-1.png" width="100%" height="500px">
+                </div>
+                </div>
+               </div>
+            
+        </div> 
+        
+        <div class="produtos">
+            <h2>Doctors</h2>
+            <p>If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
+            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.</p>
 
-            Creative doctors
-            If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
-            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
+            <h2>Rehabilitation Center</h2>
+            <p>If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem ipsum dolor, consectetur
+            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.</p>
 
-            Rehabilitation Center
-            If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem ipsum dolor, consectetur
-            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
+            <h2>Emergency Cases</h2>
+            <p>If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem ipsum dolor, consectetur
+            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.</p>
 
-            Emergency Cases
-            If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem ipsum dolor, consectetur
-            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
-
-            Creative Doctors
-            If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
-            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
-
+            <h2>Creative Doctors</h2>
+            <p>If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
+            adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.</p>
+        </div>
 
 
             
+        <div class="medical-guide">
 
-            Welcome to Medical Guild
+            Welcome to Medical Guide
             If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
             adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
 
@@ -92,7 +100,7 @@
             Patient Life
             Qualified Doctors
 
-            Washinton Medical Science Institute
+            <h2>Washinton Medical Science Institute</h2>
             If you need a doctor for to consectetur If you a doctor for to consectetuer Lorem opsum dolor, consectetur
             adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat eros adipscing nonummy.
 
@@ -101,6 +109,8 @@
             quis nostrud exercitation ullamco laboris ut aliquip.
 
             read more
+
+        </div>
 
                         
             Meet Our Specialists
@@ -171,11 +181,44 @@
             Ellebana Front 
             Heart Patirnt
 
+
+            <script>
+
+                function padrao(){
+                
+                    var padrao = document.getElementById('a1').getAttribute('src');
+                        document.getElementById("a1").src = padrao; 
+                    }
+                    
+                        function anuncio1(){
+                            document.getElementById('a1').src="imagens/banner-1.png";
+                        }
+                        
+                        
+                        function anuncio2(){
+                            document.getElementById('a1').src="https://www.medicalassociatestt.info/wp-content/uploads/2017/10/1503411077revised-bhatia-homebanner-03.jpg";
+                        }
+                        
+                        function anuncio3(){
+                            document.getElementById('a1').src="https://previews.123rf.com/images/kurhan/kurhan1511/kurhan151100702/47935028-hands-of-medical-doctor-woman-health-care-banner-.jpg";
+                        }
+                        
+                        var intervalFunctions = [padrao, anuncio1, anuncio2, anuncio3];
+                        var intervalIndex = 0;
+                        
+                        
+                        window.setInterval(function(){
+                            intervalFunctions[intervalIndex++ % intervalFunctions.length]();
+                        }, 3000);
+         
+             </script>
+     
+
     </main>
     
     <footer>
 
-        
+
 
     </footer>
 
