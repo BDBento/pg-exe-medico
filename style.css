@@ -98,3 +98,16 @@ a{
 }
 
 
+.medical-guide ,.produtos{
+    width: 940px;
+    text-align: center;
+
+}
+
+.medical-guide .imagem-medical-guide{
+    width: 40%;
+    height:300px;
+    text-align: right;
+}
+
+
