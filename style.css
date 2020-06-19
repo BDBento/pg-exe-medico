@@ -72,7 +72,7 @@ body{
     position: relative;
     bottom: 30px; 
     left:35%;
-    background-color:#fff; 
+    background-color:#ffffff; 
 }
 
 .menu li{
@@ -158,19 +158,49 @@ a{
 
 .titulo-medical-guide{
     font-size: 36px;
-    padding-top: 100px;
+    padding-top: 1.5em;
 
 }
 
 .titulo-medical-guide b{
     font-weight: bold;
-}
+
+}    
 
 .subtitulo-medical-guide{
     font-size: 12px;
 }
 
+.menu-medical-guide li{
+    font-size: 16px;
+    color:#646464;
+    border-bottom: 1px #646464 solid;
+    display: inline-block;
+    text-align:center;
+    position:relative; 
+    padding:3em 0 0 0;
+    margin-right: 3em;
+    vertical-align: bottom;
+    
+    
+}
+
+.menu-medical-guide li:hover{
+    font-size: 16px;
+    color:#02adc6;
+    font-weight: bold;
+    border-bottom: 2px #02adc6 solid;
+    display: inline-block;
+    text-align:center;
+    position:relative; 
+    padding:3em 0 0 0;
+    margin-right: 3em;
+    vertical-align: bottom;
+    
+}
+
 .titulo-texto-medical{
+    margin-top: 2em;
     font-size: 26px;
     padding-bottom: 15px;
     font-weight: bold;
@@ -192,6 +222,7 @@ a{
 
 }
 
+
 .botao{
     background-color: #525866;
     text-align: center;
@@ -202,5 +233,28 @@ a{
     margin-top: 0px;
     padding-top: 1em;
     padding-bottom: 1em;
+    border: rgba(0, 0, 255, 0);
+    text-decoration: none;
 }
+
+.botao:hover{
+    background-color: #7a7d85;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 115px;
+    margin-top: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: rgba(0, 0, 255, 0);
+    text-decoration: none;
+}
+
+.bloco3{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
