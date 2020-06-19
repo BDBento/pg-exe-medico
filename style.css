@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 .inicio{
     background: #525866;
     display: inline-block;
@@ -148,6 +152,7 @@ a{
 
 .bloco2{
     background: #f5f5f5;
+    height: 580px;
     
 }
 
@@ -157,21 +162,45 @@ a{
 
 }
 
+.titulo-medical-guide b{
+    font-weight: bold;
+}
+
+.subtitulo-medical-guide{
+    font-size: 12px;
+}
+
 .titulo-texto-medical{
-    font-size: 32px;
-    padding-bottom: 20px;
+    font-size: 26px;
+    padding-bottom: 15px;
+    font-weight: bold;
     
 }
 
 .imagem-medical-guide{
     float: left;
     padding: 2px 0 0 0;
-    margin: 0px 10px auto 0;
+    margin: 0px 40px auto 0;
+    height: 290px;
+}
+
+.texto-imagem p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 23px;
+    width: 92%;
+
 }
 
 .botao{
-    background-color: blue;
+    background-color: #525866;
+    text-align: center;
+    font-size: 9px;
     border-radius: 5px;
-    color: cornsilk;
+    color: #ffffff;
+    width: 115px;
+    margin-top: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
