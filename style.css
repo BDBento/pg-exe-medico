@@ -1,6 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
+    width: 100%;
 }
+
 
 .inicio{
     background: #525866;
@@ -24,7 +26,7 @@ body{
     color: #ffffff;
     position: relative ;
     display: inline-block;
-    left: 28%;
+    left: 24%;
     padding: 10px 20px 12px 20px;
 }
 
@@ -65,13 +67,15 @@ body{
 .logo-grande{
     display: inline-block;
     width: 20%;
+    top:-10px;
 }
 
 .menu{
     list-style: none;
     position: relative;
-    bottom: 30px; 
-    left:35%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    left:25%;
     background-color:#ffffff; 
 }
 
@@ -79,11 +83,11 @@ body{
     font-size: 16px;
     text-align:center;
     position:relative; 
-    float:left;
+       float:left;
     padding:0 1em 0 1em;
     vertical-align: bottom;
     
-    }
+}
 
 #botton-home{
     text-align: center;
@@ -255,6 +259,52 @@ a{
     width: 940px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.subtitulo-medical-guide{
+    font-weight: bold;
+}
+
+.bloco3-doutores{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.bloco3-doutores li{
+    margin: auto 30px auto 0;
+    width: 256px;
+    border: blue solid 3px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+
+
+.bloco3-doutores h3{
+    color:#02adc6;
+    font-weight: bold;
+}
+
+.bloco3-doutores .sub{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bloco3-doutores p{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.dotor img{
+    width: 255px;
+    height: 255px;
+    margin-bottom: 20px;
+    
+}
+
+.dotor .assinatura{
+    font-weight: bold;
 }
 
 
