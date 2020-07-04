@@ -54,7 +54,7 @@ body{
     width: 1em;
     bottom: 1em;
     left: 5em;
-    border-left: 1px solid gainsboro;
+    border-left: 1px solid #f4f4f4;
 }
 
 .logo1{
@@ -155,7 +155,7 @@ a{
 }
 
 .bloco2{
-    background: #f5f5f5;
+    background:#f4f4f4;
     height: 580px;
     
 }
@@ -163,6 +163,8 @@ a{
 .titulo-medical-guide{
     font-size: 36px;
     padding-top: 1.5em;
+    margin-left: 0.5em;
+    margin-bottom: 15px;
 
 }
 
@@ -263,6 +265,7 @@ a{
 
 .subtitulo-medical-guide{
     font-weight: bold;
+    margin-left: 1.7em;
 }
 
 .bloco-doutores{
@@ -331,12 +334,52 @@ a{
 }
 
 .bloco5{
-    background-color: gainsboro;
+    background-color: #f5f5f5;
 
 }
 
-.bloco5 .dotor{
+.bloco5 .dotor-b5{
     background-color: #ffffff;
+    width: 250px;
+    height: 330px;
+}
+
+.bloco5 .bloco5-img{
+    width: 250px;
+    height: 166px;
+}
+
+.bloco5 .bloco5-img-boll{
+    width: 40px;
+    height: 40px;
+    border: #ffffff solid 3px;
+    position:relative;
+    top: -25px;
+    left: 20px;
+    border-radius: 25px;
+
+}
+
+.dotor-b5 .bloco5-txt{
+    font-size: 18px;
+    color: black;
+    position:relative;
+    margin-left: 1.5em;
+    top: -15px;
+
+}
+
+.dotor-b5 .bloco5-subtxt{
+    margin-left: 2.2em; 
+    font-size: 12px;   
+    width: 220px;
+
+}
+
+.bloco5 .subtitulo-medical-guide{
+    font-size: 14px;
+    position:relative;
+    left: -3px;
 }
 
 
