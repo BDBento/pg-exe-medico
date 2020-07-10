@@ -549,6 +549,25 @@ button{
     margin-top: 8px;
 }
 
+.roda-pe{
+    width: 100%;
+}
+
+.roda-pe img{
+    position: relative;
+    top:-15px;
+    left: 30%;
+}
+
+.roda-pe p{
+    font-size: 10px;
+    position: relative;
+    color: white;
+    display: inline;
+    top: -30px;
+    right: 30%;
+}
+
 
 /*alinhando bloco*/
 
